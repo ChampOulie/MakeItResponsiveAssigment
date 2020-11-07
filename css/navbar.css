@@ -1,0 +1,16 @@
+ul.menu{
+  background-position: center;
+}
+
+li{
+  padding-top: 5px;
+}
+
+li a {
+  padding-top: 15px;
+}
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-weight: bold;
+}

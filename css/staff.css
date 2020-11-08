@@ -369,8 +369,11 @@ li a:active {
   li {
     float: left;
     padding: 0px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
   }
 
   li a {
@@ -380,7 +383,7 @@ li a:active {
     padding: 25px 0px;
     margin-bottom: -0.5px;
     text-decoration: none;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   li a:hover {

@@ -456,6 +456,7 @@ li a:active {
     grid-row: 2;
     grid-column: 1;
     /* width: calc(100vw - 12px); */
+    width: 100vw;
   }
 
   .top {

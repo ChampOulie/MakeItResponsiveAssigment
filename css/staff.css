@@ -269,6 +269,7 @@ ul:target .blink {
   }
 
   .menu {
+    justify-content: space-evenly;
     grid-row: 1;
   }
 
@@ -362,8 +363,6 @@ li a:active {
     padding: 0;
     overflow: hidden;
     background-color: white;
-
-    position: sticky;
   }
 
   li {
@@ -456,7 +455,7 @@ li a:active {
   .menu {
     grid-row: 2;
     grid-column: 1;
-    width: calc(100vw - 12px);
+    /* width: calc(100vw - 12px); */
   }
 
   .top {

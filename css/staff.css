@@ -27,6 +27,10 @@ h2 {
   display: inline-block;       
 }
 
+.logo a:active {
+  background-color: none;
+}
+
 .logo center a {
   cursor: default;    
 }
@@ -483,6 +487,11 @@ li a:active {
 
 }
 
-a:focus {
+.menu a:focus {
   background-color: khaki;
 }
+
+a:active {
+  background-color: none;
+}
+
